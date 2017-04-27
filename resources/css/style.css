@@ -13,14 +13,16 @@ Orange color #e67e22
   box-sizing: border-box;
 }
 
+input[value="Send it!"],   /* hacky */ 
 html,
-input[value="Send it!"] {
+body {
   background-clip: #fff;
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 /* ---- 
